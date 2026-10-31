@@ -1,79 +1,81 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#310d24" />
-  <meta name="description" content="A little floral surprise for Bebo." />
-  <title>For Bebo ♡</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
-  <style>
-    :root{color-scheme:dark;--bg:#210c1a;--rose:#ffb2cf;--cream:#ffecf0;--muted:#e6b8c8;--gold:#f1c891;--line:rgba(255,177,204,.48)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--cream);font-family:'DM Sans',sans-serif;background:radial-gradient(ellipse 75% 28% at 50% 20%,#69304f55,transparent),linear-gradient(180deg,#170811 0%,#351224 48%,#190a17 100%);min-height:100vh;overflow-x:hidden}
-    body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.55;background-image:radial-gradient(circle at 12% 18%,#ffb5d57a 0 1px,transparent 2px),radial-gradient(circle at 78% 40%,#ffe2a973 0 1px,transparent 2px),radial-gradient(circle at 37% 70%,#ffc4df60 0 1px,transparent 2px);background-size:180px 190px,250px 270px,200px 230px;z-index:0}
-    .shell{position:relative;z-index:1;width:min(1140px,calc(100% - 32px));margin:auto;padding:25px 0 95px}.eyebrow{font-size:10px;letter-spacing:.36em;text-transform:uppercase;color:var(--gold);text-align:center;margin:8px 0 9px}.brand{font-family:'Great Vibes',cursive;font-size:clamp(54px,8vw,94px);line-height:1.1;color:#ffd4df;text-align:center;text-shadow:0 0 40px #fc79aa8a;margin:0}.small-heart{font-family:Arial,sans-serif;font-size:.48em;vertical-align:middle;color:#ff99c0}.subtitle{text-align:center;color:#f0c6d3;font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(14px,2vw,19px);margin:0 0 24px}
-    .flower{pointer-events:none;position:absolute;z-index:-1;font-size:clamp(62px,12vw,150px);filter:drop-shadow(0 5px 12px #a71b545c);opacity:.76}.flower.left{left:-45px;top:0;transform:rotate(-23deg)}.flower.right{right:-35px;top:200px;transform:rotate(24deg)}
-    .four-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;max-width:1080px;margin:0 auto 26px}.photo{position:relative;border:1.5px solid var(--line);border-radius:21px;padding:5px;background:linear-gradient(145deg,#ffabc14a,#66253b,#3a122b);box-shadow:0 16px 38px #08020b9c,0 0 30px #e9709333;overflow:hidden;aspect-ratio:4/5}.photo img{display:block;width:100%;height:100%;object-fit:cover;border-radius:15px;background:#6d3a54}.photo::after{content:'✿';position:absolute;right:12px;bottom:3px;color:#ffccda;text-shadow:0 2px 8px #30071a;font-size:28px}.photo::before{content:'✿';position:absolute;z-index:1;left:4px;top:0;color:#ffd0df;font-size:26px;text-shadow:0 2px 8px #30071a}
-    .hero{position:relative;max-width:940px;margin:14px auto 24px;display:grid;grid-template-columns:.95fr 1fr;align-items:center;gap:36px;padding:12px}.hero-frame{position:relative;max-width:440px;width:100%;aspect-ratio:4/4.5;margin:auto;padding:9px;border:2px solid #ffb9d5;border-radius:38% 38% 18px 18px;background:linear-gradient(155deg,#e6a5be,#44152b);box-shadow:0 0 0 5px #feb9d21b,0 20px 70px #f364a52f,0 24px 45px #10040c}.hero-frame img{width:100%;height:100%;object-fit:cover;border-radius:38% 38% 12px 12px;display:block}.hero-frame:after{content:'🌸';position:absolute;right:-24px;bottom:-20px;font-size:84px;filter:drop-shadow(0 8px 14px #220710)}.hero-copy{text-align:center}.overline{display:flex;gap:14px;align-items:center;justify-content:center;color:#f3c4d1;font-size:10px;letter-spacing:.29em;text-transform:uppercase}.overline:before,.overline:after{content:'';width:44px;height:1px;background:#d28da7}.hero-copy h2{font-family:'Playfair Display',serif;font-weight:400;font-size:clamp(35px,5.4vw,64px);line-height:1.16;margin:21px 0;color:#ffe2e8}.hero-copy h2 em{color:#f3a9c1}.hero-copy p{color:#e8beca;font-family:'Playfair Display',serif;line-height:1.8;font-size:clamp(15px,1.8vw,19px);max-width:370px;margin:0 auto}.flourish{color:#e8a6bd;letter-spacing:.35em;text-align:center;margin:20px 0}
-    .gift-section{text-align:center;position:relative;max-width:800px;margin:55px auto 0;padding:32px 20px 35px;background:radial-gradient(ellipse at 50% 12%,#b2467440,transparent 65%),linear-gradient(145deg,#4215277d,#240e1ce3);border:1px solid #f7a8c451;border-radius:32px;box-shadow:0 15px 60px #12040e92,inset 0 0 45px #fba9ce10}.gift-section:before,.gift-section:after{content:'🌸';position:absolute;top:-34px;font-size:70px}.gift-section:before{left:-19px}.gift-section:after{right:-19px}.gift-section h2{font-family:'Playfair Display',serif;font-size:clamp(27px,4vw,43px);font-weight:400;margin:10px 0}.gift-section .lead{color:#e9b9c9;font-size:14px;margin:0 0 20px}.gift-art{position:relative;margin:17px auto 14px;width:240px;height:185px;filter:drop-shadow(0 22px 15px #10030b8c)}.box-base{position:absolute;bottom:1px;left:25px;width:190px;height:116px;border-radius:9px 9px 17px 17px;background:linear-gradient(120deg,#ad3b69,#f190b1 48%,#b43b6d);box-shadow:inset 0 -15px 25px #83204965,0 0 24px #fa8bb166}.box-base:after{content:'';position:absolute;top:0;bottom:0;left:84px;width:23px;background:linear-gradient(90deg,#f8d7a2,#ffedc9,#e2ab63)}.lid{position:absolute;z-index:3;left:13px;top:54px;width:214px;height:44px;border-radius:8px;background:linear-gradient(145deg,#ffd2dd,#d75d89 60%,#b94773);border:2px solid #ffcbd8;transform-origin:20% 80%;transition:transform .9s cubic-bezier(.15,.75,.3,1),opacity .6s}.lid:after{content:'🎀';position:absolute;font-size:58px;left:78px;top:-48px;filter:drop-shadow(0 3px 4px #701a43)}.bouquet{position:absolute;z-index:1;left:36px;top:20px;width:170px;font-size:47px;letter-spacing:-14px;transform:translateY(65px) scale(.6);opacity:.4;transition:transform 1s .25s,opacity 1s .25s}.gift-art.open .lid{transform:translate(-33px,-85px) rotate(-19deg)}.gift-art.open .bouquet{transform:translateY(-13px) scale(1);opacity:1}
-    .open-btn{cursor:pointer;border:1px solid #fff3d2;border-radius:100px;background:linear-gradient(100deg,#a62c62,#e57aa7,#b42c6b);color:white;box-shadow:0 0 0 5px #ff9ec022,0 7px 30px #e65094a1;padding:15px 43px;font-size:17px;font-weight:700;transition:transform .2s,box-shadow .2s}.open-btn:hover{transform:translateY(-3px);box-shadow:0 0 0 6px #ff9ec02a,0 12px 40px #e65094ce}.open-btn:focus-visible{outline:3px solid #fff;outline-offset:5px}.open-btn:disabled{opacity:.75;cursor:default;transform:none}.note{max-width:570px;margin:24px auto 0;padding:30px 18px;border-radius:20px;background:linear-gradient(155deg,#fff3ef,#ffd6e2);color:#7c1846;border:5px double #d86c9a;box-shadow:0 15px 35px #15020c9e;animation:rise .7s both}.note[hidden]{display:none}.note .flowerline{font-size:27px;letter-spacing:.1em}.note strong{display:block;margin:14px auto;font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,39px);line-height:1.4;font-weight:500}.note small{font-size:14px;color:#a3476e}.signature{text-align:center;font-family:'Great Vibes',cursive;color:#f3a4c3;font-size:31px;margin:30px 0 0}.petals{position:fixed;inset:0;z-index:10;pointer-events:none;overflow:hidden}.petal{position:absolute;top:-40px;font-size:20px;animation:fall linear forwards;opacity:.85}@keyframes fall{to{transform:translate3d(var(--drift),110vh,0) rotate(540deg);opacity:0}}@keyframes rise{from{opacity:0;transform:translateY(20px) scale(.95)}to{opacity:1;transform:translateY(0) scale(1)}}.foot{font-size:12px;text-align:center;color:#d69aaf;margin-top:24px}
-    @media(max-width:760px){.shell{width:min(100% - 22px,560px)}.four-grid{gap:8px;grid-template-columns:repeat(2,1fr)}.photo{border-radius:14px;padding:3px}.photo img{border-radius:10px}.hero{display:flex;flex-direction:column;gap:16px;padding:4px;margin-top:18px}.hero-frame{max-width:320px}.hero-copy h2{margin:9px 0}.gift-section{margin-top:36px;padding:25px 12px}.gift-section:before,.gift-section:after{font-size:43px;top:-25px}.gift-section:before{left:0}.gift-section:after{right:0}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#2a0e21">
+<title>For Bebo ♡</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#ffc1d9;--cream:#ffe9ef;--gold:#f6cfac;--dark:#290e21}
+*{box-sizing:border-box}
+html{height:100%;scroll-behavior:smooth}
+body{margin:0;min-height:100%;font-family:'DM Sans',sans-serif;color:var(--cream);background:radial-gradient(ellipse at 50% 2%,#8234536b,transparent 54%),linear-gradient(145deg,#160a15,#3b172e 57%,#210b1b);overflow-x:hidden}
+body:before{content:'';position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 10% 20%,#ffb0ca80 0 2px,transparent 3px),radial-gradient(circle at 80% 56%,#ffe0ab88 0 1px,transparent 3px);background-size:155px 178px,188px 213px;opacity:.4}
+.page{position:relative;width:min(940px,calc(100% - 24px));margin:auto;min-height:100svh;padding:clamp(8px,2vh,18px) 0 12px;display:flex;flex-direction:column;align-items:center;gap:clamp(8px,1.7vh,16px)}
+.brand{text-align:center;font:clamp(42px,7vh,66px)/.92 'Great Vibes',cursive;color:#ffe1e9;text-shadow:0 0 26px #fd79b48b;margin:0}.brand span{font:24px Arial,sans-serif;color:#ff9dbf}
+.photos{width:100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(5px,1.5vw,13px);max-height:29svh}
+.photo{position:relative;min-width:0;aspect-ratio:4/5;max-height:29svh;border:1px solid #ffc1d9a6;padding:3px;border-radius:clamp(9px,1.5vw,20px);background:linear-gradient(145deg,#f7a6c9,#8b395b 55%,#49162f);box-shadow:0 8px 24px #09030bb8,0 0 15px #e46c9b36;overflow:hidden}
+.photo img{display:block;width:100%;height:100%;object-fit:cover;border-radius:inherit;background:#673249}
+.photo:before,.photo:after{position:absolute;z-index:2;font-size:clamp(13px,2.3vw,27px);text-shadow:0 2px 8px #5b1136;pointer-events:none}.photo:before{content:'✿';top:0;left:3px;color:#ffe2ea}.photo:after{content:'❀';right:4px;bottom:0;color:#ffb5d0}
+.gift{position:relative;width:min(670px,100%);border:1px solid #fcaac777;border-radius:clamp(19px,3vw,30px);padding:clamp(13px,2.4vh,23px) 12px 17px;text-align:center;background:radial-gradient(ellipse at 50% 10%,#c3588852,transparent 70%),linear-gradient(150deg,#491b32d9,#250d1fef);box-shadow:0 16px 50px #10040fa0,inset 0 0 28px #f7aaca16}
+.gift:before,.gift:after{content:'🌸';position:absolute;top:-14px;font-size:clamp(26px,5vw,45px);filter:drop-shadow(0 5px 8px #250715)}.gift:before{left:-5px}.gift:after{right:-5px}
+.eyebrow{font-size:clamp(8px,1.2vw,10px);letter-spacing:.23em;text-transform:uppercase;color:var(--gold);margin:0 0 4px}
+h2{font:clamp(23px,4vw,35px)/1.12 'Playfair Display',serif;font-weight:400;margin:0 0 5px}.lead{font-size:clamp(11px,1.8vw,13px);color:#f1c8d5;margin:0}
+.present{position:relative;height:clamp(116px,19vh,172px);width:205px;max-width:100%;margin:0 auto 6px;filter:drop-shadow(0 14px 13px #13030f)}
+.base{position:absolute;bottom:2px;left:28px;width:149px;height:69%;border-radius:7px 7px 14px 14px;background:linear-gradient(105deg,#b43f72,#f49aba 55%,#a62f65);box-shadow:inset 0 -12px 18px #7b1e4c66,0 0 20px #ed7eac50}.base:after{content:'';position:absolute;left:calc(50% - 10px);inset-block:0;width:20px;background:linear-gradient(90deg,#d9a867,#ffeac0,#d9a867)}
+.lid{position:absolute;z-index:3;left:15px;top:26%;width:175px;height:30%;max-height:45px;border:2px solid #ffe1e5;border-radius:7px;background:linear-gradient(120deg,#ffcbdb,#e476a2 55%,#ac3768);transform-origin:12% 80%;transition:transform .8s ease,opacity .8s}.lid:after{content:'🎀';position:absolute;font-size:42px;left:64px;top:-34px}
+.bouquet{position:absolute;z-index:1;left:20px;right:20px;top:9px;font-size:clamp(28px,5vh,42px);white-space:nowrap;letter-spacing:-9px;transform:translateY(48px) scale(.6);opacity:.25;transition:transform .8s .15s,opacity .8s .15s}.opened .lid{transform:translate(-23px,-66px) rotate(-21deg)}.opened .bouquet{transform:translateY(-10px) scale(.9);opacity:1}
+.open-btn{cursor:pointer;border:1px solid #ffe3dc;border-radius:100px;padding:11px 30px;background:linear-gradient(100deg,#ab316a,#f18eb4,#ae316b);color:white;font:700 15px 'DM Sans',sans-serif;box-shadow:0 0 0 4px #ff96be24,0 7px 25px #e9579390;transition:transform .2s}.open-btn:hover{transform:translateY(-2px)}.open-btn:focus-visible{outline:3px solid white;outline-offset:4px}
+.message{margin:12px auto 0;max-width:540px;background:linear-gradient(135deg,#fff3ed,#ffd2e1);color:#8a254e;border:3px double #df7ca5;border-radius:15px;padding:14px 13px;animation:appear .6s both}.message[hidden]{display:none}.message strong{display:block;font:clamp(19px,3.5vw,28px)/1.28 'Playfair Display',serif}.message small{display:block;margin-top:6px;color:#a44d71;font-size:11px}
+.petal-layer{pointer-events:none;position:fixed;z-index:10;inset:0;overflow:hidden}.petal{position:absolute;top:-30px;font-size:19px;animation:fall linear forwards}@keyframes fall{to{transform:translate3d(var(--x),105vh,0) rotate(480deg);opacity:0}}@keyframes appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+/* On narrow phones photos MUST remain in one horizontal row, never stack. */
+@media(max-width:520px){.page{width:calc(100% - 18px);gap:9px}.brand{font-size:clamp(39px,7vh,56px)}.photos{gap:5px}.photo{padding:2px;border-radius:9px}.gift{padding:13px 8px 14px}.present{height:clamp(100px,18vh,146px)}.open-btn{padding:10px 25px}.message{padding:12px 9px}.message strong{font-size:clamp(18px,4.5vw,23px)}}
+@media(max-height:690px){.page{gap:7px;padding-top:6px}.brand{font-size:38px}.photos{max-height:25svh}.photo{max-height:25svh}.gift{padding-top:10px;padding-bottom:11px}.present{height:110px}.lead{display:none}.message{margin-top:8px;padding:9px}.message strong{font-size:19px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+</style>
 </head>
 <body>
- <div class="petals" id="petals" aria-hidden="true"></div>
- <main class="shell">
-  <span class="flower left" aria-hidden="true">🌸</span><span class="flower right" aria-hidden="true">🌺</span>
-  <p class="eyebrow">A little fan-made surprise</p>
-  <h1 class="brand">Bebo <span class="small-heart">♡</span></h1>
-  <p class="subtitle">A collection of lovely moments, just for you</p>
-
-  <!-- FOUR PHOTOS AT THE VERY TOP -->
-  <section class="four-grid" aria-label="Four photos of Bebo">
-   <div class="photo"><img src="B1.png" alt="Bebo photo one" loading="eager" onerror="this.closest('.photo').style.display='none'"></div>
-   <div class="photo"><img src="B2.png" alt="Bebo photo two" loading="eager" onerror="this.closest('.photo').style.display='none'"></div>
-   <div class="photo"><img src="B5.png" alt="Bebo photo three" loading="eager" onerror="this.closest('.photo').style.display='none'"></div>
-   <div class="photo"><img src="B6.png" alt="Bebo photo four" loading="eager" onerror="this.closest('.photo').style.display='none'"></div>
+<div class="petal-layer" id="petals" aria-hidden="true"></div>
+<main class="page">
+  <h1 class="brand">Bebo <span>♡</span></h1>
+  <section class="photos" aria-label="Four Bebo photos">
+    <div class="photo"><img src="B1.png" alt="Bebo photo 1"></div>
+    <div class="photo"><img src="B2.png" alt="Bebo photo 2"></div>
+    <div class="photo"><img src="B5.png" alt="Bebo photo 3"></div>
+    <div class="photo"><img src="B6.png" alt="Bebo photo 4"></div>
   </section>
-
-  <!-- B3.png IS THE FEATURED HERO IMAGE -->
-  <section class="hero" aria-label="Bebo featured portrait">
-   <div class="hero-frame"><img src="B3.png" alt="Featured portrait of Bebo" onerror="this.alt='Please upload B3.png beside index.html'"></div>
-   <div class="hero-copy">
-    <div class="overline">Made with appreciation</div>
-    <h2>A Little Tribute to <em>Bebo</em> ♡</h2>
-    <p>A tiny corner of the internet to celebrate your creativity and the smiles your content brings.</p>
-    <div class="flourish">✦ ♡ ✦</div>
-   </div>
+  <section class="gift" aria-labelledby="giftTitle">
+    <p class="eyebrow">A little surprise, just for you</p>
+    <h2 id="giftTitle">A Flower Box For Bebo ♡</h2>
+    <p class="lead">A little message is waiting inside...</p>
+    <div class="present" id="present" aria-hidden="true"><div class="bouquet">🌷🌸🌹💐</div><div class="base"></div><div class="lid"></div></div>
+    <button id="openBtn" class="open-btn" type="button" aria-expanded="false" aria-controls="message">Open Kren ♡</button>
+    <div class="message" id="message" hidden role="status" aria-live="polite">
+      <strong>BEBO PLS VIDEO UPLOAD KRDIA KAREN PLS 💗</strong>
+      <small>Jab bhi aapka dil kare — your fans would love a new video!</small>
+    </div>
   </section>
-
-  <!-- SURPRISE BOX BELOW THE PHOTOS AND HERO -->
-  <section class="gift-section" aria-labelledby="gift-title">
-   <p class="eyebrow">One little request</p>
-   <h2 id="gift-title">A Flower Box For Bebo ♡</h2>
-   <p class="lead">There is a little message waiting inside...</p>
-   <div class="gift-art" id="giftArt" aria-hidden="true"><div class="bouquet">🌷🌸🌹💐</div><div class="box-base"></div><div class="lid"></div></div>
-   <button type="button" class="open-btn" id="openBtn" aria-controls="secretNote" aria-expanded="false">Open Kren ♡</button>
-   <div class="note" id="secretNote" hidden role="status" aria-live="polite">
-    <div class="flowerline" aria-hidden="true">🌸 ♡ 🌷 ♡ 🌸</div>
-    <strong>BEBO PLS VIDEO UPLOAD KRDIA KAREN PLS 💗</strong>
-    <small>Jab bhi aapka dil kare — your fans would love to see a new video!</small>
-   </div>
-  </section>
-  <p class="signature">Just for Bebo ♡</p>
-  <p class="foot">A fan-made tribute • Made with appreciation</p>
- </main>
- <script>
-  const btn=document.getElementById('openBtn'),gift=document.getElementById('giftArt'),note=document.getElementById('secretNote'),layer=document.getElementById('petals');
-  const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  btn.addEventListener('click',()=>{
-    gift.classList.add('open');note.hidden=false;btn.textContent='Opened With Love ♡';btn.disabled=true;btn.setAttribute('aria-expanded','true');
-    if(!reduced){for(let i=0;i<42;i++){const el=document.createElement('span');el.className='petal';el.textContent=['🌸','🌷','💗','✿','🌺'][Math.floor(Math.random()*5)];el.style.left=Math.random()*100+'%';el.style.setProperty('--drift',(Math.random()*220-110)+'px');el.style.animationDuration=(3+Math.random()*4)+'s';el.style.animationDelay=(Math.random()*2)+'s';layer.appendChild(el);el.addEventListener('animationend',()=>el.remove())}}
-    setTimeout(()=>note.scrollIntoView({behavior:reduced?'instant':'smooth',block:'nearest'}),600);
-  });
- </script>
+</main>
+<script>
+const button=document.querySelector('#openBtn');
+button.addEventListener('click',()=>{
+  document.querySelector('#present').classList.add('opened');
+  document.querySelector('#message').hidden=false;
+  button.textContent='Opened ♡';button.setAttribute('aria-expanded','true');button.disabled=true;
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    const petals=document.querySelector('#petals');
+    for(let i=0;i<28;i++){
+      const p=document.createElement('span');p.className='petal';
+      p.textContent=['🌸','✿','🌷','💗'][Math.floor(Math.random()*4)];
+      p.style.left=Math.random()*100+'%';p.style.setProperty('--x',(Math.random()*170-85)+'px');
+      p.style.animationDuration=(2.8+Math.random()*3)+'s';p.style.animationDelay=Math.random()*.8+'s';
+      petals.append(p);p.addEventListener('animationend',()=>p.remove());
+    }
+  }
+});
+</script>
 </body>
 </html>
 
